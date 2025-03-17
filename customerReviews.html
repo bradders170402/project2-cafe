@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Customer Reviews - Tea Cozy">
+  <title>Customer Reviews - Tea Cozy</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+  <header>
+    <!-- Logo -->
+    <div class="logo">
+      <a href="home.html">Bradley</a>
+    </div>
+  
+    <!-- Hamburger Menu Toggle -->
+    <input type="checkbox" id="menu-toggle" class="menu-toggle">
+  
+    <!-- Hamburger Icon -->
+    <label for="menu-toggle" class="hamburger-icon">
+      <img src="assets/images/hamburger.png" alt="hamburger icon">
+    </label>
+  
+    <!-- Desktop Navigation -->
+    <nav class="desktop-nav">
+      <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="shop.html">Shop</a></li>
+        <li><a href="events.html">Events</a></li>
+        <li><a href="customerReviews.html">Customer Reviews</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  
+    <!-- Mobile Navigation -->
+    <nav class="mobile-menu">
+      <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="shop.html">Shop</a></li>
+        <li><a href="events.html">Events</a></li>
+        <li><a href="customerReviews.html">Customer Reviews</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="reviews-container">
+    <!-- Customer Reviews Section -->
+    <section class="reviews-header">
+      <h2>What Our Customers Are Saying</h2>
+      <p>Discover why our customers love Tea Cozy! Read their reviews and experiences with our teas and events.</p>
+    </section>
+
+    <!-- Individual Review Entries -->
+    <section class="reviews-list">
+      <div class="review">
+        <img src="https://content.codecademy.com/courses/freelance-1/unit-4/img-spiced-rum.jpg" alt="Spiced Rum Tea">
+        <div class="review-text">
+          <h3>Sarah T. - Fall Berry Blitz Tea</h3>
+          <p>"I absolutely love the Fall Berry Blitz tea! It’s the perfect balance of fruity and spicy. The quality is
+            exceptional, and it’s my go-to tea for the colder months!"</p>
+        </div>
+      </div>
+
+      <div class="review">
+        <img src="https://content.codecademy.com/courses/freelance-1/unit-4/img-berryblitz.jpg" alt="Berry Blitz Tea">
+        <div class="review-text">
+          <h3>Michael H. - Spiced Rum Tea</h3>
+          <p>"The Spiced Rum Tea was the highlight of my visit! I had it at the Tea Cozy's tasting event, and I loved the
+            rich flavors. I can’t wait to get more for home!"</p>
+        </div>
+      </div>
+
+      <div class="review">
+        <img src="https://content.codecademy.com/courses/freelance-1/unit-4/img-donut.jpg" alt="Seasonal Donuts">
+        <div class="review-text">
+          <h3>Emily R. - Seasonal Donuts</h3>
+          <p>"Tea and donuts—what a wonderful combination! The seasonal donuts at Tea Cozy were a delicious surprise and
+            paired perfectly with my tea. Highly recommend!"</p>
+        </div>
+      </div>
+
+      <div class="review">
+        <img src="https://content.codecademy.com/courses/freelance-1/unit-4/img-myrtle-ave.jpg" alt="Myrtle Ave Tea">
+        <div class="review-text">
+          <h3>Oliver G. - Myrtle Ave Tea</h3>
+          <p>"The Myrtle Ave Tea is simply amazing. It’s a great blend of smoothness and flavor that’s not too
+            overpowering. A must-try for anyone who loves a great cup of tea."</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Submit Your Own Review -->
+    <section class="submit-review">
+      <h2>Submit Your Review</h2>
+      <p>We would love to hear about your Tea Cozy experience! Share your thoughts with us.</p>
+      <form class="submit-form" action="#" method="POST">
+        <label for="name">Your Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="review">Your Review:</label>
+        <textarea id="review" name="review" rows="4" required></textarea>
+
+        <button type="submit">Submit Review</button>
+      </form>
+    </section>
+
+    <footer id="contact">
+      <div class="content">
+        <h2>The Tea Cozy</h2>
+        <h5>contact@theteacozy.com</h5>
+        <h5>917-555-8904</h5>
+      </div>
+      <div class="copyright">
+        <h5>Copyright The Tea Cozy 2017</h5>
+      </div>
+    </footer>
+  </main>
+</body>
+
+</html>
